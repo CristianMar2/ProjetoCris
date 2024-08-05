@@ -2,7 +2,7 @@ package controller;
 
 import javax.swing.JFrame;
 
-import clinica.InicialTela;
+import view.InicialTela;
 
 public class Principal 
 {
