@@ -11,5 +11,6 @@ public class Principal
 		JFrame janela = new InicialTela();
 		janela.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		janela.setVisible(true);
+		System.out.println("Olá mundo!");
 	}
 }
