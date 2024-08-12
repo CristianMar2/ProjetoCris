@@ -174,27 +174,15 @@ public class LoginSecretaria extends javax.swing.JFrame {
     }                                          
 
     private void butaoCancelarActionPerformed(java.awt.event.ActionEvent evt) {                                              
-        InicialTela frame = new InicialTela();
-        frame.setVisible(true);
-
-        // Ocultando a janela inicial
-        this.setVisible(false);
+        
     }                                             
 
     private void butaoLoginActionPerformed(java.awt.event.ActionEvent evt) {                                           
-        InicioSecretaria frame = new InicioSecretaria();
-        frame.setVisible(true);
-
-        // Ocultando a janela inicial
-        this.setVisible(false);
+        
     }                                          
 
     private void butaoCadastrarActionPerformed(java.awt.event.ActionEvent evt) {                                               
-        CadastroSecretaria frame = new CadastroSecretaria();
-        frame.setVisible(true);
-
-        // Ocultando a janela inicial
-        this.setVisible(false);
+        
     }                                              
 
     /**

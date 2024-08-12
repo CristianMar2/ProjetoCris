@@ -341,19 +341,11 @@ public class CadastroPaciente extends javax.swing.JFrame {
     }                                                 
 
     private void butaoCancelarActionPerformed(java.awt.event.ActionEvent evt) {                                              
-        LoginPaciente frame = new LoginPaciente();
-        frame.setVisible(true);
-
-        // Ocultando a janela inicial
-        this.setVisible(false);
+        
     }                                             
 
     private void butaoCadastrarActionPerformed(java.awt.event.ActionEvent evt) {                                               
-        LoginPaciente frame = new LoginPaciente();
-        frame.setVisible(true);
-
-        // Ocultando a janela inicial
-        this.setVisible(false);
+        
     }                                              
 
     /**

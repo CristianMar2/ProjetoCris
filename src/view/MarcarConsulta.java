@@ -203,19 +203,11 @@ public class MarcarConsulta extends javax.swing.JFrame {
     }// </editor-fold>                        
 
     private void butaoMarcarConsultaActionPerformed(java.awt.event.ActionEvent evt) {                                                    
-        InicioSecretaria frame = new InicioSecretaria();
-        frame.setVisible(true);
-
-        // Ocultando a janela inicial
-        this.setVisible(false);
+        
     }                                                   
 
     private void butaoCancelarActionPerformed(java.awt.event.ActionEvent evt) {                                              
-        InicioSecretaria frame = new InicioSecretaria();
-        frame.setVisible(true);
-
-        // Ocultando a janela inicial
-        this.setVisible(false);
+        
     }                                             
 
     /**

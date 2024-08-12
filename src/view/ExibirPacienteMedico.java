@@ -264,11 +264,7 @@ public class ExibirPacienteMedico extends javax.swing.JFrame {
     }                                                 
 
     private void butaoVoltarActionPerformed(java.awt.event.ActionEvent evt) {                                            
-        InicioSecretaria frame = new InicioSecretaria();
-        frame.setVisible(true);
-
-        // Ocultando a janela inicial
-        this.setVisible(false);
+        
     }                                           
 
     /**

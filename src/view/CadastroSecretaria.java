@@ -298,19 +298,11 @@ public class CadastroSecretaria extends javax.swing.JFrame {
     }                                                   
 
     private void butaoCancelarActionPerformed(java.awt.event.ActionEvent evt) {                                              
-        LoginSecretaria frame = new LoginSecretaria();
-        frame.setVisible(true);
-
-        // Ocultando a janela inicial
-        this.setVisible(false);
+       
     }                                             
 
     private void butaoCadastrarActionPerformed(java.awt.event.ActionEvent evt) {                                               
-        LoginSecretaria frame = new LoginSecretaria();
-        frame.setVisible(true);
-
-        // Ocultando a janela inicial
-        this.setVisible(false);
+        
     }                                              
 
     /**

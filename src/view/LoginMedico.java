@@ -175,27 +175,15 @@ public class LoginMedico extends javax.swing.JFrame {
     }                                          
 
     private void butaoCancelarActionPerformed(java.awt.event.ActionEvent evt) {                                              
-        InicialTela frame = new InicialTela();
-        frame.setVisible(true);
-
-        // Ocultando a janela inicial
-        this.setVisible(false);
+        
     }                                             
 
     private void butaoLoginActionPerformed(java.awt.event.ActionEvent evt) {                                           
-        InicioMedico frame = new InicioMedico();
-        frame.setVisible(true);
-
-        // Ocultando a janela inicial
-        this.setVisible(false);
+        
     }                                          
 
     private void butaoCadastrarActionPerformed(java.awt.event.ActionEvent evt) {                                               
-        CadastroMedico frame = new CadastroMedico();
-        frame.setVisible(true);
-
-        // Ocultando a janela inicial
-        this.setVisible(false);
+        
     }                                              
 
     /**

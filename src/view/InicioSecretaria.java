@@ -145,51 +145,27 @@ public class InicioSecretaria extends javax.swing.JFrame {
     }// </editor-fold>                        
 
     private void butaoAlteraActionPerformed(java.awt.event.ActionEvent evt) {                                            
-        AlteraSecretaria frame = new AlteraSecretaria();
-        frame.setVisible(true);
-
-        // Ocultando a janela inicial
-        this.setVisible(false);
+        
     }                                           
 
     private void butaoMarcaConsultaActionPerformed(java.awt.event.ActionEvent evt) {                                                   
-        MarcarConsulta frame = new MarcarConsulta();
-        frame.setVisible(true);
-
-        // Ocultando a janela inicial
-        this.setVisible(false);
+        
     }                                                  
 
     private void butaoExibiConsultaActionPerformed(java.awt.event.ActionEvent evt) {                                                   
-        ExibirConsulta frame = new ExibirConsulta();
-        frame.setVisible(true);
-
-        // Ocultando a janela inicial
-        this.setVisible(false);
+        
     }                                                  
 
     private void butaoExibiPacienteActionPerformed(java.awt.event.ActionEvent evt) {                                                   
-        ExibirPaciente frame = new ExibirPaciente();
-        frame.setVisible(true);
-
-        // Ocultando a janela inicial
-        this.setVisible(false);
+        
     }                                                  
 
     private void butaoExibiMedicoActionPerformed(java.awt.event.ActionEvent evt) {                                                 
-        ExibirMedico frame = new ExibirMedico();
-        frame.setVisible(true);
-
-        // Ocultando a janela inicial
-        this.setVisible(false);
+        
     }                                                
 
     private void butaoSairActionPerformed(java.awt.event.ActionEvent evt) {                                          
-        InicialTela frame = new InicialTela();
-        frame.setVisible(true);
-
-        // Ocultando a janela inicial
-        this.setVisible(false);
+        
     }                                         
 
     /**

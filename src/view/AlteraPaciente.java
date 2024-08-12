@@ -337,23 +337,15 @@ public class AlteraPaciente extends javax.swing.JFrame {
     }                                             
 
     private void campoEmailInputMethodTextChanged(java.awt.event.InputMethodEvent evt) {                                                  
-        addEmailValidation(campoEmail);
+        
     }                                                 
 
     private void butaoCancelarActionPerformed(java.awt.event.ActionEvent evt) {                                              
-        InicioPaciente frame = new InicioPaciente();
-        frame.setVisible(true);
-
-        // Ocultando a janela inicial
-        this.setVisible(false);
+        
     }                                             
 
     private void butaoCadastrarActionPerformed(java.awt.event.ActionEvent evt) {                                               
-        InicioPaciente frame = new InicioPaciente();
-        frame.setVisible(true);
-
-        // Ocultando a janela inicial
-        this.setVisible(false);
+        
     }                                              
 
     /**

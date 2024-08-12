@@ -210,19 +210,11 @@ public class ExibirConsulta extends javax.swing.JFrame {
     }// </editor-fold>                        
 
     private void butaoExcluirActionPerformed(java.awt.event.ActionEvent evt) {                                             
-        LoginPaciente frame = new LoginPaciente();
-        frame.setVisible(true);
-
-        // Ocultando a janela inicial
-        this.setVisible(false);
+        
     }                                            
 
     private void butaoSalvarActionPerformed(java.awt.event.ActionEvent evt) {                                            
-        InicioSecretaria frame = new InicioSecretaria();
-        frame.setVisible(true);
-
-        // Ocultando a janela inicial
-        this.setVisible(false);
+        
     }                                           
 
     /**

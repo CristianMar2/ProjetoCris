@@ -137,11 +137,7 @@ public class ExibirPrescricaoPaciente extends javax.swing.JFrame {
     }// </editor-fold>                        
 
     private void butaoVoltarActionPerformed(java.awt.event.ActionEvent evt) {                                            
-        InicioPaciente frame = new InicioPaciente();
-        frame.setVisible(true);
-
-        // Ocultando a janela inicial
-        this.setVisible(false);
+        
     }                                           
 
     /**

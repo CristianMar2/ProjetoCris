@@ -182,27 +182,15 @@ public class LoginPaciente extends javax.swing.JFrame {
     }                                          
 
     private void butaoLoginActionPerformed(java.awt.event.ActionEvent evt) {                                           
-        InicioPaciente frame = new InicioPaciente();
-        frame.setVisible(true);
-
-        // Ocultando a janela inicial
-        this.setVisible(false);
+        
     }                                          
 
     private void butaoCancelarActionPerformed(java.awt.event.ActionEvent evt) {                                              
-        InicialTela frame = new InicialTela();
-        frame.setVisible(true);
-
-        // Ocultando a janela inicial
-        this.setVisible(false);
+        
     }                                             
 
     private void butaoCadastrarActionPerformed(java.awt.event.ActionEvent evt) {                                               
-        CadastroPaciente frame = new CadastroPaciente();
-        frame.setVisible(true);
-
-        // Ocultando a janela inicial
-        this.setVisible(false);
+        
     }                                              
 
     /**

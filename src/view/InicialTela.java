@@ -115,27 +115,15 @@ public class InicialTela extends javax.swing.JFrame {
     }// </editor-fold>                        
 
     private void butaoMedicoActionPerformed(java.awt.event.ActionEvent evt) {                                            
-        LoginMedico frame = new LoginMedico();
-        frame.setVisible(true);
-
-        // Ocultando a janela inicial
-        this.setVisible(false);
+        
     }                                           
 
     private void butaoSecretariaActionPerformed(java.awt.event.ActionEvent evt) {                                                
-        LoginSecretaria frame = new LoginSecretaria();
-        frame.setVisible(true);
-
-        // Ocultando a janela inicial
-        this.setVisible(false);
+        
     }                                               
 
     private void butaoPacienteActionPerformed(java.awt.event.ActionEvent evt) {                                              
-        LoginPaciente frame = new LoginPaciente();
-        frame.setVisible(true);
-
-        // Ocultando a janela inicial
-        this.setVisible(false);
+        
     }                                             
 
     private void centralizeWindow() {

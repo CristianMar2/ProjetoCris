@@ -145,51 +145,27 @@ public class InicioPaciente extends javax.swing.JFrame {
     }// </editor-fold>                        
 
     private void butaoAlteraActionPerformed(java.awt.event.ActionEvent evt) {                                            
-        AlteraPaciente frame = new AlteraPaciente();
-        frame.setVisible(true);
-
-        // Ocultando a janela inicial
-        this.setVisible(false);
+        
     }                                           
 
     private void butaoExibiConsultaActionPerformed(java.awt.event.ActionEvent evt) {                                                   
-        ExibirConsultaPaciente frame = new ExibirConsultaPaciente();
-        frame.setVisible(true);
-
-        // Ocultando a janela inicial
-        this.setVisible(false);
+        
     }                                                  
 
     private void butaoExibiProntuarioActionPerformed(java.awt.event.ActionEvent evt) {                                                     
-        ExibirProntuarioPaciente frame = new ExibirProntuarioPaciente();
-        frame.setVisible(true);
-
-        // Ocultando a janela inicial
-        this.setVisible(false);
+        
     }                                                    
 
     private void butaoExibiExameActionPerformed(java.awt.event.ActionEvent evt) {                                                
-        ExibirExamePaciente frame = new ExibirExamePaciente();
-        frame.setVisible(true);
-
-        // Ocultando a janela inicial
-        this.setVisible(false);
+        
     }                                               
 
     private void butaoExibiPrescricaoActionPerformed(java.awt.event.ActionEvent evt) {                                                     
-        ExibirPrescricaoPaciente frame = new ExibirPrescricaoPaciente();
-        frame.setVisible(true);
-
-        // Ocultando a janela inicial
-        this.setVisible(false);
+        
     }                                                    
 
     private void butaoSairActionPerformed(java.awt.event.ActionEvent evt) {                                          
-        InicialTela frame = new InicialTela();
-        frame.setVisible(true);
-
-        // Ocultando a janela inicial
-        this.setVisible(false);
+       
     }                                         
 
     /**

@@ -203,11 +203,7 @@ public class ExibirExame extends javax.swing.JFrame {
     }                                        
 
     private void butaoSalvarActionPerformed(java.awt.event.ActionEvent evt) {                                            
-        InicioMedico frame = new InicioMedico();
-        frame.setVisible(true);
-
-        // Ocultando a janela inicial
-        this.setVisible(false);
+        
     }                                           
 
     private void butaoExcluirActionPerformed(java.awt.event.ActionEvent evt) {                                             

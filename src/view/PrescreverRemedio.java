@@ -168,19 +168,11 @@ public class PrescreverRemedio extends javax.swing.JFrame {
     }// </editor-fold>                        
 
     private void butaoSalvarActionPerformed(java.awt.event.ActionEvent evt) {                                            
-        InicioMedico frame = new InicioMedico();
-        frame.setVisible(true);
-
-        // Ocultando a janela inicial
-        this.setVisible(false);
+        
     }                                           
 
     private void butaoVoltarActionPerformed(java.awt.event.ActionEvent evt) {                                            
-        InicioMedico frame = new InicioMedico();
-        frame.setVisible(true);
-
-        // Ocultando a janela inicial
-        this.setVisible(false);
+        
     }                                           
 
     /**

@@ -270,19 +270,11 @@ public class AlteraMedico extends javax.swing.JFrame {
     }                                        
 
     private void butaoCancelarActionPerformed(java.awt.event.ActionEvent evt) {                                              
-        InicioMedico frame = new InicioMedico();
-        frame.setVisible(true);
-
-        // Ocultando a janela inicial
-        this.setVisible(false);
+        
     }                                             
 
     private void butaoAlteraActionPerformed(java.awt.event.ActionEvent evt) {                                            
-        InicioMedico frame = new InicioMedico();
-        frame.setVisible(true);
-
-        // Ocultando a janela inicial
-        this.setVisible(false);
+        
     }                                           
 
     /**
